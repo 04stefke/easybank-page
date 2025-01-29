@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.navbarItems {
+	@apply text-gray-500 hover:text-black cursor-pointer hover:after:absolute hover:after:bottom-[-23px] hover:after:right-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-green-600;
+}

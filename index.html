@@ -13,16 +13,16 @@
 				<img src="./images/logo.svg" alt="logo" class="w-44" />
 			</div>
 			<nav
-				class="lg:static absolute bg-white text-black lg:min-h-0  min-h-[40vh] left-0 top-[-100%] w-full lg:w-fit flex items-center px-5"
-        id="mobile-menu"
+				class="lg:static absolute bg-white text-black lg:min-h-0 min-h-[40vh] left-0 top-[-100%] w-full lg:w-fit flex items-center px-5"
+				id="mobile-menu"
 			>
 				<ul
 					class="flex flex-col justify-center lg:flex-row items-center gap-5 w-full"
 				>
-					<li><a href="/">Home</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li class="relative"><a class="navbarItems" href="/">Home</a></li>
+					<li class="relative"><a class="navbarItems" href="/services">Services</a></li>
+					<li class="relative"><a class="navbarItems" href="/about">About</a></li>
+					<li class="relative"><a class="navbarItems" href="/contact">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -31,7 +31,11 @@
 			</button>
 
 			<button class="lg:hidden block">
-				<img src="./images/icon-hamburger.svg" alt="" onclick="onToggleMenu(this)" />
+				<img
+					src="./images/icon-hamburger.svg"
+					alt=""
+					onclick="onToggleMenu(this)"
+				/>
 			</button>
 		</header>
 		<main></main>
