@@ -7,10 +7,24 @@
 		<link href="/style.css" rel="stylesheet" />
 		<title>Easybank</title>
 	</head>
-	<body>
-		<div>
-			<p class="font-bold text-5xl">hello</p>
-		</div>
+	<body class="min-h-screen w-screen">
+		<header class="flex items-center justify-between px-5 pt-5">
+			<div class="">
+        <img src="./images/logo.svg" alt="logo" class="w-44">
+			</div>
+			<nav class="hidden md:flex">
+				<ul class="flex items-center gap-5">
+					<li><a href="/">Home</a></li>
+					<li><a href="/services">Services</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</nav>
+      <div>
+        <button class="hidden md:block px-8 py-3 rounded-full bg-green-100">Request Invite</button>
+      </div>
+		</header>
+		<main></main>
 		<script type="module" src="/main.js"></script>
 	</body>
 </html>
