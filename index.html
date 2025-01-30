@@ -14,43 +14,52 @@
 		<title>Easybank</title>
 	</head>
 	<body class="min-h-screen w-screen font-fam">
-		<header class="flex items-center justify-between px-5 py-5 w-full">
+		<header class="flex items-center justify-between px-5 py-5 w-full fixed z-5  bg-white">
 			<div class="">
 				<img src="./images/logo.svg" alt="logo" class="w-44" />
 			</div>
-			<nav
-				class="lg:static absolute bg-white text-black lg:min-h-0 min-h-[40vh] left-0 top-[-100%] w-full lg:w-fit flex items-center px-5"
-				id="mobile-menu"
-			>
-				<ul
-					class="flex flex-col justify-center lg:flex-row items-center gap-5 w-full"
+			<nav class="">
+				<div
+					class="lg:static absolute bg-white text-black lg:min-h-0 min-h-[40vh] left-0 top-[-1000px] w-full lg:w-fit flex items-center px-5"
+					id="mobile-menu"
 				>
-					<li class="relative"><a class="navbarItems" href="/">Home</a></li>
-					<li class="relative">
-						<a class="navbarItems" href="/services">Services</a>
-					</li>
-					<li class="relative">
-						<a class="navbarItems" href="/about">About</a>
-					</li>
-					<li class="relative">
-						<a class="navbarItems" href="/contact">Contact</a>
-					</li>
-				</ul>
+					<ul
+						class="flex flex-col justify-center lg:flex-row items-center gap-5 w-full"
+					>
+						<li class="relative"><a class="navbarItems" href="/">Home</a></li>
+						<li class="relative">
+							<a class="navbarItems" href="/services">Services</a>
+						</li>
+						<li class="relative">
+							<a class="navbarItems" href="/about">About</a>
+						</li>
+						<li class="relative">
+							<a class="navbarItems" href="/contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+
 			</nav>
 
 			<button class="hidden lg:block px-8 py-3 rounded-full bg-green-100">
 				Request Invite
 			</button>
 
-			<button class="lg:hidden block">
+			<button class="lg:hidden block cursor-pointer">
 				<img
 					src="./images/icon-hamburger.svg"
 					alt=""
 					onclick="onToggleMenu(this)"
+					class="z-20 sticky"
 				/>
 			</button>
 		</header>
-		<main></main>
+		<main class="h-full">
+			<article class="h-full relative">
+				<img src="./images/bg-intro-desktop.svg" alt="" class="relative">
+				<img src="./images/image-mockups.png" alt="mockups" class="w-full h-[700px] object-fill absolute top-[-260px]">
+			</section>
+		</main>
 		<script src="/main.js"></script>
 	</body>
 </html>
