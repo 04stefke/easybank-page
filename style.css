@@ -20,5 +20,5 @@
 }
 
 .btnGradient {
-	@apply bg-gradient-to-r from-[hsl(136,65%,51%)] to-[hsl(192,70%,51%)];
+	@apply bg-gradient-to-r from-[hsl(136,65%,51%)] to-[hsl(192,70%,51%)] cursor-pointer hover:brightness-150;
 }
