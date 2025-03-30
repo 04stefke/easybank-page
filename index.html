@@ -230,30 +230,61 @@
 			</section>
 		</main>
 		<footer
-			class="flex flex-col items-center justify-center bg-dark-blue text-white gap-10 py-10"
+			class="flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-start bg-dark-blue text-white gap-10 py-10 xl:px-52 lg:px-28"
 		>
-			<img src="images/logo.svg" alt="logo" class="fill-white" />
-			<div class="flex items-center justify-center gap-2">
-				<img src="images/icon-facebook.svg" alt="Facebook icon" class="hover:fill-lime-green cursor-pointer" />
-				<img src="images/icon-youtube.svg" alt="Youtube icon" class="hover:fill-lime-green cursor-pointer" />
-				<img src="images/icon-twitter.svg" alt="Twitter Icon" class="hover:fill-lime-green cursor-pointer" />
-				<img src="images/icon-pinterest.svg" alt="Pinterest icon" class="hover:fill-lime-green cursor-pointer" />
-				<img src="images/icon-instagram.svg" alt="Instagram icon" class="hover:fill-lime-green cursor-pointer" />
+			<div class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-10 w-full">
+				<div class="flex flex-col items-center justify-center gap-5 lg:justify-between h-[100px]">
+					<img src="images/logo.svg" alt="logo" class="fill-white" />
+					<div class="flex items-center justify-center gap-2">
+						<img
+							src="images/icon-facebook.svg"
+							alt="Facebook icon"
+							class="hover:fill-lime-green cursor-pointer"
+						/>
+						<img
+							src="images/icon-youtube.svg"
+							alt="Youtube icon"
+							class="hover:fill-lime-green cursor-pointer"
+						/>
+						<img
+							src="images/icon-twitter.svg"
+							alt="Twitter Icon"
+							class="hover:fill-lime-green cursor-pointer"
+						/>
+						<img
+							src="images/icon-pinterest.svg"
+							alt="Pinterest icon"
+							class="hover:fill-lime-green cursor-pointer"
+						/>
+						<img
+							src="images/icon-instagram.svg"
+							alt="Instagram icon"
+							class="hover:fill-lime-green cursor-pointer"
+						/>
+					</div>
+				</div>
+				<div
+					class="grid lg:grid-cols-2 gap-x-10 gap-y-5 text-center "
+				>
+					<a href="#" class="text-white hover:text-lime-green">About Us</a>
+					<a href="#" class="text-white hover:text-lime-green">Contact</a>
+					<a href="#" class="text-white hover:text-lime-green">Blog</a>
+					
+					<a href="#" class="text-white hover:text-lime-green">Careers</a>
+					<a href="#" class="text-white hover:text-lime-green">Support</a>
+					<a href="#" class="text-white hover:text-lime-green"
+						>Privacy Policy</a
+					>
+				</div>
 			</div>
-			<div class="flex flex-col items-center justify-center gap-5">
-				<a href="#" class="text-white hover:text-lime-green">About Us</a>
-				<a href="#" class="text-white hover:text-lime-green">Contact</a>
-				<a href="#" class="text-white hover:text-lime-green">Blog</a>
-				<a href="#" class="text-white hover:text-lime-green">Careers</a>
-				<a href="#" class="text-white hover:text-lime-green">Support</a>
-				<a href="#" class="text-white hover:text-lime-green">Privacy Policy</a>
+			<div class="flex flex-col min-w-[200px] items-center">
+				<button class="px-5 py-2 rounded-full btnGradient text-white lg:self-end">
+					Request Invite
+				</button>
+				<p class="text-xs text-grayish-blue mt-5">
+					&copy; Easybank. All rights reserved.
+				</p>
 			</div>
-			<button
-				class="px-8 py-3 rounded-full btnGradient text-white"
-			>
-				Request Invite
-			</button>
-			<p class="text-xs text-grayish-blue ">&copy; Easybank. All rights reserved.</p>
 		</footer>
 		<script src="/main.js"></script>
 	</body>
